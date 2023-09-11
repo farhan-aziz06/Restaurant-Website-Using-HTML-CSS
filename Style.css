@@ -1,0 +1,246 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar
+{
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px rgba(171, 166, 166, 0.5);
+}
+.logo
+{
+    
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 70px;
+    width: 200px;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.nav-menu
+{
+    height: 70px;
+    width: 200px; 
+    
+}
+
+.menu i
+{
+    padding-top: 35px;
+    font-size: 32px;
+   
+}
+
+.hero-section
+{
+    height: 550px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+}
+
+.hero-image
+{
+    background-image: url("hero_image.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 90%;
+    margin: 200px;
+    margin-top: 50px;
+    
+}
+
+.hero-text
+{
+    padding: 100px;
+    padding-top: 150px;
+}
+.offer-off
+{
+    background-color: rgb(128, 187, 128);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding: 20px;
+    width: fit-content;
+}
+
+.offer-off-h1
+{
+   font-size: 3rem;
+   width: 400px;
+   font-weight: 700;
+    text-transform: capitalize;
+}
+.offer-detail
+{
+    width: 400px;
+    font-size: 12px;
+}
+.offer-button
+{
+    background-color:rgb(213, 151, 38) ;
+    width: 100px;
+    padding: 3px;
+    margin: 5px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.offer-button:hover
+{
+    background-color: rgb(82, 105, 82);
+    color: white;
+    transition: 0.3s ease-out;
+}
+.desc-boxes
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 60%;
+    /* box-shadow: 5px 5px 5px rgba(171, 166, 166, 0.5); */
+    /* background-color: rgb(10, 50, 10); */
+    border-bottom:1px solid rgb(8, 27, 8) ;
+    
+}
+
+.box1
+{
+    display: flex;
+    padding: 30px;
+    box-shadow: 20px 5px 5px rgba(171, 166, 166, 0.5); 
+    background-color: rgb(128, 187, 128); 
+}
+.desc-visual
+{
+    font-size: 30px;
+}
+.desc-details
+{
+    padding-left: 10px;
+}
+
+.title
+{
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.menu-button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+button
+{
+    font-size: 30px;
+    padding: 0 5px;
+    background-color: rgb(128, 187, 128); 
+    color: white;
+    border: none;
+    transition: 0.2s ease-in;
+    color: black;
+}
+button:hover
+{
+    background-color: rgb(34, 46, 42);
+    transition: 0.2s ease-out;
+    color: white;
+}
+.txt
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700; 
+}
+
+.grid
+{
+    padding: 100px 400px;
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    "I1 I1 I2 I3"
+    "I1 I1 I2 I7"
+    "I4 I5 I6 I7";
+}
+
+.item1 {
+    grid-area: I1;
+  }
+  .item2 {
+    grid-area: I2;
+  }
+  .item3 {
+    grid-area: I3;
+  }
+  .item4 {
+    grid-area: I4;
+  }
+  .item5 {
+    grid-area: I5;
+  }
+  .item6 {
+    grid-area: I6;
+  }
+  .item7 {
+    grid-area: I7;
+  }
+  
+footer
+{
+    background-color: rgb(128, 187, 128);
+    padding-left: 400px;
+    display: flex;
+}
+.box
+{
+    padding: 30px;
+}
+
+p
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.box ul
+{
+    padding: 3px;
+    padding-top: 5px;
+}
+.icons
+{
+    font-size: 20px;
+}
+
+.box input
+{
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
